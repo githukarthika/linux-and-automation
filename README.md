@@ -46,7 +46,7 @@ Welcome to my practical learning repository for Site Reliability Engineering (SR
   ## Level 5 -> Level 6
   * **Objective:** Find a single file type among a group files with a specific size and type and which is a non executable file
   * **Commands used:**  cd inhere , ls -la , file ~/inhere -type f -size 1033c ! -executable
-  * **What I learned:** I had learned the file command earlier through linuxjourney but this type of usage and exposure was new to me . I'll going to read me more about the file command now `smile`! 
+  * **What I learned:** I had learned the file command earlier through linuxjourney but this type of usage and exposure was new to me . I'll read more about the file command now! 
   
 
 

@@ -34,14 +34,19 @@ Welcome to my practical learning repository for Site Reliability Engineering (SR
 ## Level 3 -> Level 4
 * **Objective:** Find a hidden file hidden deep inside the inhere directory
 * **Commands Used** cd inhere , ls -la , cat .hidden
-* **What I learned:** Hidden file can be retrieved by ls -la command (This was basiccaly something i had read in linuxjourney.com . Really felt good when i revised these concepts)
+* **What I learned:** Hidden file can be retrieved by ls -la command (This was basicaly something i had read in linuxjourney.com . Really felt good when i revised these concepts!)
 * **Status** Completed!
 
 ## Level 4 -> Level 5
 * **Objective:** Inspect mutliple layout files inside inhere directory and find the single huamn readable file.
 * **Commands used:** cd inhere , file ./* , cat ./-file07
-* **What I learned:** Using the file command and the wildcard '*' helped me find out about the data format of the file easily. This help me select the human readabale file easily which stroed the hidden password .
+* **What I learned:** Using the file command and the wildcard '*' helped me find out about the data format of the file easily. This help me select the human readabale file easily which stored the hidden password .
 * **Status:** Completed!
+
+  ## Level 5 -> Level 6
+  * **Objective:** Find a single file type among a group files with a specific size and type and which is a non executable file
+  * **Commands used:**  cd inhere , ls -la , file ~/inhere -type f -size 1033c ! -executable
+  * **What I learned:** I had learned the file command earlier through linuxjourney but this type of usage and exposure was new to me . I'll going to read me more about the file command now `smile`! 
   
 
 

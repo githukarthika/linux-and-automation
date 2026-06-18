@@ -43,10 +43,19 @@ Welcome to my practical learning repository for Site Reliability Engineering (SR
 * **What I learned:** Using the file command and the wildcard '*' helped me find out about the data format of the file easily. This help me select the human readabale file easily which stored the hidden password .
 * **Status:** Completed!
 
-  ## Level 5 -> Level 6
-  * **Objective:** Find a single file type among a group files with a specific size and type and which is a non executable file
-  * **Commands used:**  cd inhere , ls -la , file ~/inhere -type f -size 1033c ! -executable
-  * **What I learned:** I had learned the file command earlier through linuxjourney but this type of usage and exposure was new to me . I'll read more about the file command now! 
+## Level 5 -> Level 6
+* **Objective:** Find a single file type among a group files with a specific size and type and which is a non executable file
+* **Commands used:**  cd inhere , ls -la , find . -size 1033c -not -executable
+* **What I learned:** I had learned the file command earlier through linuxjourney but this type of usage and exposure was new to me . I'll read more about the file command now!
+
+## Level 6 -> Level 7
+* **Objective:** Find the password which is in a file with specific user ,group and size somewhere in the server.
+* **Commands used:** ls -la , find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+* **What I learned:** Since the file is somewhere in the server we have to use "/" i.e, from the root and 2>/dev/null basically directs all the error messages to /dev/null
+* **Status:** Completed!
+
+* ## Level 7 -> Level 8
+* **Objective:** 
   
 
 
